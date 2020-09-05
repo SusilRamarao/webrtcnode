@@ -32,4 +32,5 @@ io.on('connection', socket =>{
         })
     })
 })
-app.set('port', process.env.PORT || 3000);
+
+app.set('port', process.env.PORT || '3000');
